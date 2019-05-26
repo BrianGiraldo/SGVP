@@ -1,1 +1,27 @@
-/* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+
+body
+{
+	margin: 0;
+	overflow-x:hidden !important; 
+}
+
+.font-1
+{
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.font-2
+{
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+.progress-bar-1
+{
+	height: 3px !important;
+}
+
+.active-menu
+{
+	background: rgba(179, 44, 41, 0.12);
+}
